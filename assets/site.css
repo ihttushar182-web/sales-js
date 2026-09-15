@@ -207,7 +207,7 @@ html[lang="bn"] em{font-style:normal}
 .pyr{display:flex;flex-direction:column;gap:9px;align-items:center;perspective:700px}
 .pyr i{display:block;height:26px;border-radius:5px;background:linear-gradient(180deg,var(--accent),color-mix(in srgb,var(--accent) 42%,transparent));
   transform:rotateX(52deg) translateZ(var(--z,0px));box-shadow:0 12px 26px -14px rgba(0,0,0,.7);
-  transition:transform .7s var(--out),width .7s var(--out);width:var(--w)}
+  transition:transform .7s var(--out),width .7s var(--out);width:var(--w,64%)}
 .pyr.in i{transform:rotateX(52deg) translateZ(var(--z,0px)) translateY(0)}
 .pyr b{font-family:var(--mono);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 
