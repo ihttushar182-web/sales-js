@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script>document.documentElement.className="js";</script>
+<title>5-point brand audit — instant score in 5 minutes</title>
+<meta name="description" content="Five questions, an instant 0-100 score, the exact revenue you are leaking each month, and three fixes in priority order. Free, no call required.">
+<link rel="canonical" href="https://yourdomain.com/audit.html">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#f7f5f0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="What is your brand costing you each month?">
+<meta property="og:description" content="5 questions → instant score + the leak maths + the fix list. Built by a brand manager who works in conversions, not vibes.">
+<meta property="og:image" content="https://yourdomain.com/assets/og-cover.jpg">
+<link rel="stylesheet" href="assets/base.css">
+<link rel="stylesheet" href="assets/theme-editorial.css">
+<script src="assets/site.config.js"></script>
+<script src="assets/motion.js" defer></script>
+<script src="assets/funnel.js" defer></script>
+<style>.hidden{display:none!important}#result.on{animation:pane-in .7s var(--ease-out) both}
+@media print{#qbox,#result{break-inside:avoid}}</style>
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+<a class="skip" href="#main">Skip to the questions</a>
+
+<!-- one-way funnel header: no nav, no exits, one way forward -->
+<header class="nav">
+  <div class="shell nav-in">
+    <a class="brand" href="/" aria-label="Home"><span class="mark">IT</span>
+      <span>Brand Audit<br><small>by Ilias Hossain Tushar</small></span></a>
+    <nav class="nav-links" aria-label="Progress"><span class="small" id="stepLbl">Step 01 of 04 · ~5 min</span></nav>
+    <a class="btn sm ghost" href="#result" hidden>Results</a>
+  </div>
+  <div class="prog" aria-hidden="true"></div>
+</header>
+
+<main id="main">
+<!-- ============ FUNNEL STAGE 1 — WHY THIS EXISTS (attention) ============ -->
+<section style="padding-block:clamp(30px,5vw,66px) clamp(16px,2vw,26px)">
+  <div class="shell fwrap">
+    <div class="fhead">
+      <span class="eyebrow">Free · no call · you keep the answer either way</span>
+      <h1 class="display">
+        <span class="mask" data-reveal><span>How much is your brand</span></span>
+        <span class="mask" data-reveal><span>costing you <em>this month</em>?</span></span>
+      </h1>
+      <p class="lede">Not a personality test. Five questions, then a score out of 100, the monthly money your
+        funnel is losing right now, and the three fixes in the order that pays back fastest. Built from the same
+        audit I run before quoting a client.</p>
+      <div class="meta">
+        <span><i></i>5 min average</span><span><i></i>1,340 audits run</span>
+        <span><i></i>no email required to see your score</span><span><i></i>Bengali or English</span>
+      </div>
+    </div>
+
+    <div class="pbanner" data-reveal="fade" id="personal">
+      <b>Prepared for <span data-to>you</span></b>
+      <span class="small" data-pshow>— I already looked, so the questions below are the ones I could not answer myself.</span>
+      <span class="tag" style="margin-left:auto">Results are written for <span data-to>you</span>, not a mailing list</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FUNNEL STAGES 2-5 — THE QUALIFYING MICRO-FUNNEL ============ -->
+<section style="padding-block:clamp(18px,2.6vw,30px) clamp(48px,7vw,92px)" data-funnel-stage="qualify">
+  <div class="shell fwrap">
+    <div class="qbox" id="qbox">
+      <div class="qbar">
+        <div class="steps"><b id="stepNow">01</b> of <span id="stepOf">04</span><i></i>
+          <span style="letter-spacing:.1em;text-transform:uppercase">Shape · Maths · Break · Contact</span></div>
+        <span class="tag">no spam, ever</span>
+      </div>
+      <div class="rail" aria-hidden="true"><i id="railFill"></i></div>
+
+      <form id="qform" novalidate>
+        <div class="qbody">
+        <!-- ---------- STEP 1 ---------- -->
+        <div class="pane on" data-step="1">
+          <h2>What shape is the business?</h2>
+          <p class="why">The fix differs completely by stage. A solo expert needs belief + an offer; a team of
+            twelve needs a system, or the owner stays the bottleneck.</p>
+          <div class="opts" role="radiogroup" aria-label="Business shape">
+            <label class="opt"><input type="radio" name="stage" value="solo" data-group="stage" data-req>
+              <span class="dot"></span><span><b>Solo expert / founder</b><small>Trainer, consultant, doctor, coach — the name is the brand</small></span></label>
+            <label class="opt"><input type="radio" name="stage" value="team" data-group="stage">
+              <span class="dot"></span><span><b>Small team (2–15)</b><small>Sales or delivery team exists, marketing is improvised</small></span></label>
+            <label class="opt"><input type="radio" name="stage" value="scale" data-group="stage">
+              <span class="dot"></span><span><b>Scaling (16+)</b><small>Multiple products or programmes, several decision-makers</small></span></label>
+          </div>
+          <label class="field" style="margin-top:16px"><span>Category you sell in (one line)</span>
+            <input class="input" id="f-cat" type="text" placeholder="e.g. pharma sales training for FMCG field teams" autocomplete="organization"></label>
+          <p class="err" role="alert"></p>
+        </div>
+
+        <!-- ---------- STEP 2 ---------- -->
+        <div class="pane" data-step="2">
+          <h2>The maths — three numbers.</h2>
+          <p class="why">Guesses are fine; honest guesses beat missing data. These three give the leak size in
+            the next screen.</p>
+          <div class="grid g2">
+            <div class="slider"><div class="top"><span class="field" style="margin:0"><span>Enquiries per month</span></span>
+              <output data-out="f-leads">40</output></div>
+              <input type="range" id="f-leads" min="0" max="400" step="5" value="40" data-suf="">
+            </div>
+            <div class="slider"><div class="top"><span class="field" style="margin:0"><span>Enquiry → paid conversion</span></span>
+              <output data-out="f-conv">3%</output></div>
+              <input type="range" id="f-conv" min="0.5" max="20" step="0.5" value="3" data-suf="%">
+            </div>
+            <div class="slider"><div class="top"><span class="field" style="margin:0"><span>Average deal value</span></span>
+              <output data-out="f-ticket">75,000</output></div>
+              <input type="range" id="f-ticket" min="3000" max="1000000" step="1000" value="75000">
+            </div>
+            <label class="field"><span>Currency</span>
+              <select id="f-cur"><option value="৳">৳ BDT</option><option value="$">$ USD</option><option value="AED ">AED</option></select></label>
+          </div>
+          <div class="leakmath" style="margin-top:6px">
+            <div><b id="m-now">—</b><span>revenue today / month</span></div>
+            <div><b id="m-tgt">—</b><span>realistic at your traffic</span></div>
+            <div class="hot"><b id="m-gap">—</b><span>the leak / month</span></div>
+          </div>
+          <p class="small">“Realistic” = a 2× conversion lift capped at 12%, which is where a rebuilt offer and
+            proof placement get most expert-led businesses. Not a promise — a range.</p>
+        </div>
+
+        <!-- ---------- STEP 3 ---------- -->
+        <div class="pane" data-step="3">
+          <h2>Where does it actually break?</h2>
+          <p class="why">Pick the sentence that stings most. That is usually the real bottleneck.</p>
+          <div class="opts two" role="radiogroup" aria-label="Break point">
+            <label class="opt"><input type="radio" name="break" value="traffic" data-group="break" data-req>
+              <span class="dot"></span><span><b>“Nobody sees us.”</b><small>Reach is the constraint; few enquiries arrive</small></span></label>
+            <label class="opt"><input type="radio" name="break" value="trust" data-group="break">
+              <span class="dot"></span><span><b>“They see us, then go quiet.”</b><small>Traffic exists, belief does not follow</small></span></label>
+            <label class="opt"><input type="radio" name="break" value="offer" data-group="break">
+              <span class="dot"></span><span><b>“They ask the price and vanish.”</b><small>Interest exists; the offer or price kills it</small></span></label>
+            <label class="opt"><input type="radio" name="break" value="followup" data-group="break">
+              <span class="dot"></span><span><b>“Enquiries die after one reply.”</b><small>Follow-up is luck, not a system</small></span></label>
+          </div>
+          <p class="field" style="margin:18px 0 8px"><span>Already in place? Tick any that are true</span></p>
+          <div class="opts two">
+            <label class="opt"><input type="checkbox" name="have" value="page" data-group="have">
+              <span class="dot"></span><span><b>A dedicated landing page per campaign</b></span></label>
+            <label class="opt"><input type="checkbox" name="have" value="ladder" data-group="have">
+              <span class="dot"></span><span><b>A priced offer ladder (entry → core → premium)</b></span></label>
+            <label class="opt"><input type="checkbox" name="have" value="follow" data-group="have">
+              <span class="dot"></span><span><b>A written follow-up sequence for enquiries</b></span></label>
+            <label class="opt"><input type="checkbox" name="have" value="track" data-group="have">
+              <span class="dot"></span><span><b>Event tracking on every funnel stage</b></span></label>
+          </div>
+          <p class="err" role="alert"></p>
+        </div>
+
+        <!-- ---------- STEP 4 ---------- -->
+        <div class="pane" data-step="4">
+          <h2>Where do I send the score?</h2>
+          <p class="why">You see it on screen immediately either way — this is only so I can send the two-page
+            version with your category's benchmarks, if you want it.</p>
+          <div class="grid g2">
+            <label class="field"><span>Name</span>
+              <input class="input" id="f-name" type="text" data-req data-msg="One word is enough →" placeholder="Your name" autocomplete="name"></label>
+            <label class="field"><span>Email or WhatsApp</span>
+              <input class="input" id="f-contact" type="text" data-req data-msg="Where should the summary go? →" placeholder="you@company.com or +8801…" autocomplete="email"></label>
+            <label class="field"><span>Best window to talk (optional)</span>
+              <select id="f-when"><option>Mid-morning (10–12)</option><option>Afternoon (3–6)</option><option>Evening (8–10)</option><option>Don't call me, just email</option></select></label>
+            <label class="field"><span>Anything I should know? (optional)</span>
+              <textarea class="input" id="f-note" placeholder="e.g. we run workshops for pharma field teams; enrolment is seasonal"></textarea></label>
+          </div>
+          <p class="err" role="alert"></p>
+        </div>
+        </div>
+
+        <div class="qfoot">
+          <button type="button" class="btn ghost sm" data-prev hidden>← Back</button>
+          <span class="est" id="leakNow">—</span>
+          <span class="row" style="gap:10px">
+            <button type="button" class="btn sm" data-next data-cta="next">Continue <span class="ar">→</span></button>
+            <button type="button" class="btn sm" id="submitBtn" data-cta="submit" hidden>Show my score</button>
+          </span>
+        </div>
+      </form>
+    </div>
+
+    <!-- ============ RESULT: value delivered, then the ask ============ -->
+    <section id="result" hidden style="padding:0">
+      <div class="result">
+        <div class="scorewrap">
+          <div class="gauge">
+            <svg viewBox="0 0 200 200" role="img" aria-label="Funnel health score">
+              <circle class="track" cx="100" cy="100" r="84"></circle>
+              <circle class="arc" id="arc" cx="100" cy="100" r="84" transform="rotate(-90 100 100)"></circle>
+            </svg>
+            <span class="val"><b id="r-score">0</b><br><span class="small">/100 funnel health</span></span>
+          </div>
+          <p class="verdict" id="r-verdict">—</p>
+          <p class="small" style="margin-top:8px"><b id="r-name">friend</b> — this is a diagnostic, not a verdict on you.</p>
+          <p style="font-size:.9rem;color:var(--muted);margin-top:10px" id="r-blurb"></p>
+        </div>
+        <div class="stack">
+          <div class="leakmath">
+            <div><b id="r-now">—</b><span>revenue today / month</span></div>
+            <div><b id="r-target">—</b><span>realistic / month</span></div>
+            <div class="hot"><b id="r-gap">—</b><span>leaking / month</span></div>
+          </div>
+          <div class="aside-proof" style="padding:20px 22px">
+            <span class="eyebrow">Do these, in this order</span>
+            <ul class="fixes" id="r-fixes" style="margin-top:12px"></ul>
+          </div>
+          <details style="border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;background:var(--card)">
+            <summary style="cursor:pointer;font-weight:600">Your plain-text summary (paste it into a call, a DM or your team)</summary>
+            <div style="margin-top:12px">
+              <textarea class="summary" id="r-summary" rows="8" readonly></textarea>
+              <div class="row" style="margin-top:10px">
+                <button class="btn sm ghost" data-copy="#r-summary" type="button">Copy summary</button>
+                <a class="btn sm ghost" id="r-mail" href="mailto:ilias@yourdomain.com">Email it to me</a>
+                <a class="btn sm ghost" id="r-wa" href="https://wa.me/8801XXXXXXXXX">Send on WhatsApp</a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
+
+<!-- ============ POST-VALUE ASK: convert while the answer is fresh ============ -->
+<section class="shell" style="padding-block:0 clamp(40px,6vw,80px)">
+  <div class="shell fwrap">
+    <div class="close" data-reveal="scale">
+      <div>
+        <span class="eyebrow" style="color:color-mix(in srgb,var(--bg) 70%,transparent)">Now the only real question</span>
+        <h2 class="display" style="margin-block:12px 10px">Do you fix this yourself, slowly — or have it shipped in 14 days?</h2>
+        <p style="max-width:58ch;color:color-mix(in srgb,var(--bg) 78%,transparent)">Bring the number in the “leaking” box
+          and we'll spend 15 minutes deciding whether my sprint pays for itself. If it doesn't, I'll tell you to keep the fix list and go.</p>
+        <div class="row" style="margin-top:20px">
+          <a class="btn lg magnetic" href="https://cal.com/YOUR_HANDLE/brand-audit" data-href="booking" target="_blank" rel="noopener">Book 15 minutes <span class="ar">→</span></a>
+          <a class="btn lg ghost" style="border-color:rgba(255,255,255,.3);color:var(--bg)" data-wa href="https://wa.me/8801XXXXXXXXX">Reply on WhatsApp</a>
+        </div>
+      </div>
+      <ul class="side" style="font-size:.9rem">
+        <li class="row" style="gap:8px"><span>৳75,000 · 14 days</span></li>
+        <li>Fixed scope, fixed price, 50% to start</li>
+        <li>45-day benchmark clause — free rebuild if the funnel doesn't beat your baseline</li>
+        <li>Two clients at a time. This quarter: <b>1 open</b></li>
+      </ul>
+    </div>
+    <div class="grid g3" style="margin-top:clamp(22px,3vw,34px)" data-stagger>
+      <div class="card" data-reveal><span class="idx">WHAT HAPPENS NEXT</span>
+        <h3 class="display">Within 12 hours</h3>
+        <p>A reply from me (not an assistant) with two slots, plus the two-page version of your score with category benchmarks.</p></div>
+      <div class="card" data-reveal><span class="idx">ON THE CALL</span>
+        <h3 class="display">15 minutes, 4 questions</h3>
+        <p>Your offer, your price, your follow-up, your numbers. We decide fit. No deck, no discovery theatre.</p></div>
+      <div class="card" data-reveal><span class="idx">IF YOU SAY NO</span>
+        <h3 class="display">You still get the fix</h3>
+        <p>The 3-item fix list is yours either way, plus the page template I'd build from. I'd rather be useful than be sold to.</p></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="shell">
+    <div class="f-bottom" style="border:0;margin:0;padding:0">
+      <span>© <span id="yr">2026</span> Md Ilias Hossain Tushar · <a data-mail href="mailto:ilias@yourdomain.com">ilias@yourdomain.com</a></span>
+      <span>No email sequence. No retargeting. Data stays in your browser unless you send it.</span>
+      <span><a href="index.html">← Full profile</a> · <a href="pitch.html">10-second version</a></span>
+    </div>
+  </div>
+</footer>
+<div id="dbg" aria-hidden="true"></div>
+<script>
+document.getElementById("yr").textContent=new Date().getFullYear();
+/* step 2 live readouts + hide/show the right CTA per step */
+(function(){
+  var form=document.getElementById("qform"); if(!form) return;
+  var panes=[].slice.call(form.querySelectorAll(".pane"));
+  var next=form.querySelector("[data-next]"),sub=document.getElementById("submitBtn"),prev=form.querySelector("[data-prev]");
+  var lbl=document.getElementById("stepLbl");
+  function sync(){
+    var i=panes.findIndex(function(p){return p.classList.contains("on")});
+    var last=i===panes.length-1;
+    next.hidden=last; sub.hidden=!last; if(prev) prev.hidden=i===0;
+    if(lbl) lbl.textContent="Step 0"+(i+1)+" of 04 · ~"+(5-i)+" min left";
+  }
+  new MutationObserver(sync).observe(panes[0].parentElement,{attributes:true,childList:true,subtree:true});
+  form.addEventListener("change",sync); sync();
+})();
+</script>
+</body>
+</html>

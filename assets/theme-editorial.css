@@ -1,0 +1,98 @@
+/* theme-editorial.css — Structure B · "Diagnostic Funnel" · off-white Swiss grid */
+:root{
+  --bg:#f7f5f0; --bg2:#fffefb; --card:#ffffff; --fg:#15171a; --muted:#5e6067;
+  --accent:#d1451f; --accent2:#1d4d3c; --ink-inv:#fffdf8; --r:6px; --r-s:4px;
+  --line:rgba(21,23,26,.16); --line2:rgba(21,23,26,.11); --grain:.02;
+  --shadow:0 20px 46px -30px rgba(21,23,26,.4);
+}
+body{background:var(--bg);background-image:linear-gradient(var(--line2) 1px,transparent 1px),
+  linear-gradient(90deg,var(--line2) 1px,transparent 1px);background-size:100% 64px,64px 100%;
+  font-family:var(--sans);color:var(--fg)}
+section+section{border-top:1px solid var(--line2)}
+.display{font-family:var(--serif);letter-spacing:-.025em}
+.btn{border-radius:var(--r-s);box-shadow:inset 0 0 0 1px rgba(0,0,0,.06)}
+.btn:hover{transform:translateY(-1px)}
+.btn.ghost{background:transparent;color:var(--fg);border-color:var(--line)}
+.btn.ghost:hover{border-color:var(--accent);color:var(--accent);background:transparent}
+.nav{background:color-mix(in srgb,var(--bg) 86%,transparent);border-bottom:1px solid var(--line)}
+.card,.case .body,.case .side{border-radius:var(--r);border-color:var(--line2);box-shadow:none;background:var(--card)}
+.card:hover{transform:translateY(-3px);border-color:var(--accent);box-shadow:var(--shadow)}
+.grain{mix-blend-mode:multiply;opacity:.05}
+.spot{display:none}
+
+/* funnel shell: one-way, no leaky nav */
+.fwrap{max-width:1000px}
+.fhead{display:grid;gap:16px;padding-block:clamp(34px,5vw,64px) 22px}
+.fhead h1{font-size:clamp(2.1rem,5.2vw,4rem)}
+.fhead .meta{display:flex;flex-wrap:wrap;gap:8px 18px;font-family:var(--mono);font-size:.66rem;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.fhead .meta i{width:6px;height:6px;background:var(--accent);border-radius:50%;display:inline-block;margin-right:7px;vertical-align:middle}
+.tag{border-color:var(--line);color:var(--muted)}
+
+/* stepper card */
+.qbox{border:1px solid var(--line);border-radius:var(--r);background:var(--card);overflow:hidden}
+.qbar{display:flex;align-items:center;gap:14px;padding:14px clamp(16px,2.4vw,26px);border-bottom:1px solid var(--line2);background:var(--bg2)}
+.qbar .steps{margin-right:auto}
+.qbody{padding:clamp(20px,3vw,38px);display:grid;gap:clamp(16px,2vw,26px)}
+.qbody h2{font-family:var(--serif);font-size:clamp(1.5rem,2.6vw,2.1rem);line-height:1.14;font-weight:400}
+.qbody .why{color:var(--muted);font-size:.92rem;border-left:2px solid var(--accent);padding-left:12px}
+.qfoot{display:flex;gap:12px;align-items:center;justify-content:space-between;
+  padding:16px clamp(16px,2.4vw,26px);border-top:1px solid var(--line2);background:var(--bg2)}
+.qfoot .est{font-size:.78rem;color:var(--muted);font-family:var(--mono)}
+
+/* sliders */
+.slider{display:grid;gap:8px}
+.slider .top{display:flex;justify-content:space-between;align-items:baseline}
+.slider output{font-family:var(--serif);font-size:1.5rem;letter-spacing:-.02em}
+input[type=range]{-webkit-appearance:none;appearance:none;width:100%;height:26px;background:transparent}
+input[type=range]::-webkit-slider-runnable-track{height:4px;border-radius:99px;
+  background:linear-gradient(90deg,var(--accent) var(--p,20%),var(--line) var(--p,20%))}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:22px;height:22px;margin-top:-9px;
+  border-radius:50%;background:var(--fg);border:4px solid var(--bg);box-shadow:0 0 0 1px var(--line);cursor:grab;
+  transition:transform .2s}
+input[type=range]::-webkit-slider-thumb:active{transform:scale(1.14)}
+input[type=range]::-moz-range-track{height:4px;background:var(--line);border-radius:99px}
+input[type=range]::-moz-range-thumb{width:18px;height:18px;border:4px solid var(--bg);background:var(--fg);border-radius:50%}
+
+/* result */
+.result{display:grid;gap:clamp(18px,2.4vw,30px)}
+@media(min-width:820px){.result{grid-template-columns:300px 1fr}}
+.scorewrap{border:1px solid var(--line);border-radius:var(--r);padding:20px;background:var(--card);text-align:center}
+.gauge circle{fill:none;stroke-width:12;stroke-linecap:round}
+.gauge .track{stroke:var(--line2)}
+.gauge .arc{stroke:var(--accent);transition:stroke-dashoffset 1.4s var(--ease-out)}
+.gauge .arc.good{stroke:var(--accent2)}
+.scorewrap .verdict{font-family:var(--serif);font-size:1.2rem;margin-top:6px}
+.leakmath{display:grid;gap:1px;background:var(--line2);border:1px solid var(--line2);border-radius:var(--r);overflow:hidden}
+@media(min-width:640px){.leakmath{grid-template-columns:repeat(3,1fr)}}
+.leakmath div{background:var(--card);padding:16px 18px}
+.leakmath b{font-family:var(--serif);font-size:1.5rem;letter-spacing:-.02em;display:block}
+.leakmath span{font-family:var(--mono);font-size:.64rem;letter-spacing:.13em;text-transform:uppercase;color:var(--muted)}
+.leakmath .hot{background:#fdece6}
+.leakmath .hot b{color:var(--accent)}
+.fixes li{display:grid;grid-template-columns:34px 1fr;gap:14px;padding:14px 0;border-bottom:1px dashed var(--line2)}
+.fixes li .n{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:var(--fg);color:var(--bg);
+  font-family:var(--mono);font-size:.8rem}
+.fixes li b{display:block}
+.fixes li p{color:var(--muted);font-size:.9rem}
+.fixes li small{font-family:var(--mono);font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent2)}
+.summary{font-family:var(--mono);font-size:.8rem;line-height:1.7;white-space:pre-wrap;background:var(--bg2);
+  border:1px solid var(--line2);border-radius:var(--r);padding:16px;color:var(--fg)}
+
+/* sidebar proof (kept out of the funnel body to avoid distraction, shown after submit) */
+.aside-proof{border:1px solid var(--line2);border-radius:var(--r);padding:18px;background:var(--card)}
+.aside-proof .metrics{background:var(--line2)}
+.aside-proof .metric{background:var(--card)}
+.aside-proof .metric b{font-size:1.6rem}
+
+/* personalisation banner */
+.pbanner{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;padding:12px 16px;border:1px dashed var(--accent);
+  border-radius:var(--r);background:#fff6f2;font-size:.86rem}
+.pbanner b{color:var(--accent)}
+
+/* closing band */
+.close{border:1px solid var(--fg);border-radius:var(--r);padding:clamp(22px,3.4vw,44px);background:var(--fg);color:var(--bg)}
+.close .display{color:var(--bg)}
+.close .btn{background:var(--accent);color:#fff}
+.close .small{color:color-mix(in srgb,var(--bg) 70%,transparent)}
+.close .side li{border-color:color-mix(in srgb,var(--bg) 30%,transparent)}
