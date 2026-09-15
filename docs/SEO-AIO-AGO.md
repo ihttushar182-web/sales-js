@@ -7,8 +7,8 @@ forces in Bangladesh") · **AGO** (agents that fetch, act and book on the visito
 ## 1 · Already implemented in the code
 
 ### Technical / Core Web Vitals (ranking hygiene)
-- Static HTML, **no framework, no webfonts, no third-party JS** — HTML 8–15 KB gz, ~30 KB gz per page with assets,
-  5–6 requests. LCP element is text, so LCP is paint-bound, not fetch-bound.
+- Static HTML, **no framework, no webfonts, no third-party JS** — measured cold: index 139 KB raw / 41.2 KB gz over 7
+  requests, inner pages 25–32 KB gz over 5. LCP element is hero text, so LCP is paint-bound, not fetch-bound.
 - `width`/`height` on every image + `loading="lazy"` below the fold → CLS ≈ 0. Deferred JS (`defer`) → INP unaffected by scripts.
 - `preload` for the stylesheet; `theme-color` per mood; `color-scheme` per theme; `content-visibility` not needed because sections are cheap.
 - `404.html` returns 404 with routes back into the funnel. `robots.txt` blocks `?to=` personalised URLs and `/admin.html`, `/outreach/`.

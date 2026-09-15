@@ -11,7 +11,9 @@ that turns a follower into a corporate training contract:
 - **SEO + AEO/AIO + agent-readable plumbing**: JSON-LD graph, sitemap, RSS + JSON Feed, `llms.txt`, hreflang, PWA
 
 Zero frameworks. Zero webfonts. No build tool to install — one Node script for content plumbing.
-Page weight: HTML 8–15 KB gzipped, ~30 KB gz total including CSS/JS, 5–6 requests, no third parties.
+Measured page weight (`gzip -9`, cold, no cache): **index 139 KB raw / 41.2 KB gz over 7 requests**
+(54 KB HTML + 34 KB CSS + 33 KB JS + 18 KB content JSON); inner pages land at **25–32 KB gz over 5 requests**.
+No webfonts, no framework, no third-party origin — the LCP element is hero text, so first paint is paint-bound.
 
 ```bash
 node tools/serve.js      # http://localhost:8000  + admin boards can write back to content/*.json
