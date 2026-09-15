@@ -132,3 +132,88 @@ traffic never lands anywhere measurable. That's an asset problem, not an influen
 - [ ] Publish the site (GitHub Pages/Netlify) so the link is live and HTTPS.
 - [ ] Test `pitch.html?to=YourName&co=Test` on a phone first — 30-second read, one button.
 - [ ] Add your `formEndpoint` (Formspree / Apps Script) so audit results reach your inbox, not just his.
+
+---
+
+# Part B — he asked for a sample link. This is the answer.
+
+> **“Well noted — would you please give me sample website link?”**
+> You answered that you were waiting for a *minimum signal* of his preference. That was the right instinct — but
+> don't wait for it. Send the finished thing. A trainer who sells on systems gets judged on his own funnel, so the
+> strongest move is a working link plus a two-line diagnosis of the gap he has today.
+
+## 1 · The link
+
+Publish this repo first (Netlify drag-and-drop or GitHub Pages → 3 minutes), then send **one** URL:
+
+```
+https://<your-domain>/            ← his new profile: hero, diagnostic, programmes, articles, gallery, booking
+https://<your-domain>/diagnostic.html   ← only if you want the tool to be the opener
+```
+
+Add a `?to=` parameter so you can see whether *he* opened it and how far he got (`?debug=1` on your own screen):
+
+```
+https://<your-domain>/index.html?to=Yousuf&co=Future%20Icon&hook=sample-link-request
+```
+
+Before you send it, change these three things or it reads as a demo:
+1. `content/settings.json → seo.siteUrl` = the real domain (then `node scripts/build.js`).
+2. Delete or replace every number marked **demo** in `docs/DATA-CHECKLIST.md` Part B — especially the invented
+   `rating` / `enrolled` on courses (fake `aggregateRating` is a Google structured-data violation).
+3. Drop 3–4 real photos into `assets/img/gallery/` as `g1.jpg`, `g2.jpg`… and re-run build. Placeholders are honest
+   but they cost you the "he can see himself in it" moment.
+
+## 2 · The DM to send (paste-ready)
+
+> Efti vai, here's the sample: **https://<your-domain>**
+>
+> While you read it, three things I did deliberately:
+>
+> **1. It starts with a diagnostic, not a bio.** 10 questions from a 40-question bank, different set every visit, scored
+> 0–100 across market / offer / pipeline / proof / conversion / retention, then a report to their email or WhatsApp.
+> Your audience already writes reports like this for clients — the tool gives them a reason to hand you a contact
+> before the training need even exists.
+>
+> **2. Both languages, on purpose.** Bengali and English are real toggles, not a plugin, and every page carries both in
+> the HTML — so a Dhaka L&D manager and a Malaysian HR head see the same thing in their own language.
+>
+> **3. You can edit it yourself.** `admin.html` → passphrase → articles, programmes, gallery, booking rules, and an SEO
+> audit that scores your live pages. Nothing depends on a developer.
+>
+> Bangla version: https://<your-domain> (one click, top-right)
+> What's missing: your real numbers, your photos, your prices — all marked for you in a one-page list.
+> 15 minutes this week and I'll walk you through what I'd change first?
+
+Two rules: one link, one ask. Do not attach a PDF, do not write a paragraph about your 6 years — the site is the proof.
+
+## 3 · 60-second walkthrough (voice note or call)
+
+1. Home → hero: “one message, one action above the fold — a visitor has 8 seconds, this gives them one thing to do.”
+2. Click the diagnostic → answer 2 questions → show the score, the dimension bars, the fix list.
+3. Enter your own email → show the report arriving → “this is a lead *with a score attached*, which is what you pitch from.”
+4. Admin → login → Articles board: type one line, save, reload the public page. “You own the content.”
+5. Booking board: change a working window → the public slot grid changes. “No back-and-forth on times.”
+6. End on the phone: open on mobile, switch to the bright theme → “same code, 1.9-second feel on 4G, no tracker.”
+
+## 4 · If he asks “what would you actually change about me?”
+
+Three findings, in this order — they are visible in his public footprint, so no audit needed to say them honestly:
+
+| Finding | Evidence | Fix |
+|---|---|---|
+| Reach with no capture | 47,830 followers, a phone number on the banner, and no owned form anywhere in public view | diagnostic + lead magnet + booking on one domain he controls |
+| Two numbers, no primary | +880 1754 325325 on his banner vs +880 1776 888555 on a partner listing | one canonical lead line everywhere (site, GBP, LinkedIn, schema) |
+| Offer not priced in public | programmes listed as roles, not as priced options | three rungs (diagnostic → 2-day in-house → 8-week cohort) with a public price band; the price page is where 41% of B2B buyers shortlist |
+
+Then the close: “I am not pitching a website. I am pitching the funnel that has to exist around the training
+business — the site is the part you can see.”
+
+## 5 · Cadence
+
+| Day | Action |
+|---|---|
+| 0 | Send §2 with the live link. |
+| 2 | Voice note: the single most interesting thing you noticed about his positioning (specific, not flattering). |
+| 5 | Send the *one-screen* version: a screenshot of his diagnostic report with 3 numbers filled by him, if he ran it. If he didn't, ask a 1-line question (“which segment pays you best per day of delivery?”). |
+| 9 | Close loop: “no reply is a reply — I'll leave the link with you and stop here. If the funnel ever becomes the priority, the build is already done.” This is the message that gets answered most. |

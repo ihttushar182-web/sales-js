@@ -1,0 +1,111 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Field notes — Md Yousuf Efti, PhD",
+  "home_page_url": "https://yousufefti.com/blog.html",
+  "feed_url": "https://yousufefti.com/feed.json",
+  "description": "Sales leadership and field performance notes by Md Yousuf Efti, PhD.",
+  "icon": "https://yousufefti.com/assets/favicon.svg",
+  "items": [
+    {
+      "id": "team-development-for-newly-promoted-sales-leaders",
+      "url": "https://yousufefti.com/article.html?slug=team-development-for-newly-promoted-sales-leaders",
+      "title": "Team Development for Newly Promoted Sales Leaders",
+      "title_bn": "নতুন পদোন্নত সেলস লিডারদের টিম ডেভেলপমেন্ট",
+      "content_html": "<p>The phone rings and the best rep in your territory is now your report. Nobody trained you for that conversation, and nobody warned you that the first ninety days decide whether you keep him.</p><p>I have watched this exact transition inside pharma, FMCG and insurance sales forces for nineteen years. The pattern is stable, and so is the fix.</p><h2>Forming: the contract, not the target</h2><p>A new team is polite. Politeness is data-free. In week one, do not announce a stretch number — sit with each person and agree three things: what I will always tell you, what I will never do, and what I need from you to keep you earning. Write it. Sign it. This is the document your team will test you against for the next twelve months.</p><h2>Storming: the argument you should be grateful for</h2><p>Around week three or four, the old peer becomes the loudest sceptic. Newly promoted managers lose the room here by doing one of two things: punishing the challenge, or pretending it is not happening. Neither works. Thank the challenge publicly, then move it into a structure — 'that is a fair objection, put it in the Friday list, we will decide it with data.' Conflict that has a route does not become resentment.</p><h2>Norming: rituals beat rhetoric</h2><p>Culture is what happens when nobody is giving a speech. Three rituals, kept without exception: a Monday plan of the day's five must-win calls, a Friday review of lost deals only, and one monthly field day where you sell alongside the weakest performer, not the strongest. Make the scoreboard visible to the team, in the team's language, updated by the team.</p><h2>Performing: the cadence you must not skip</h2><p>Once the machine runs, managers get pulled upward into meetings and the coaching stops first. That is exactly when a high performer starts updating a CV. Two coaching conversations per person per month, one written line of feedback each time, one development ask per quarter — that is the whole system. It is not inspiring. It works.</p><h3>What to do on Monday</h3><p>Do not send a motivational message. Book four 25-minute slots with the four people you are most likely to lose, and ask each of them the same question: what would make this year worth staying for?</p>",
+      "summary": "How to lead a new sales team through Forming, Storming, Norming and Performing — with the specific thing to do in each stage, and the mistake that costs you your best rep.",
+      "date_published": "2026-08-30",
+      "date_modified": "2026-09-02",
+      "tags": [
+        "leadership",
+        "retention"
+      ],
+      "image": "https://yousufefti.com/assets/img/blog/leadership.jpg",
+      "authors": [
+        {
+          "name": "Md Yousuf Efti, PhD"
+        }
+      ]
+    },
+    {
+      "id": "increase-sales-during-political-unrest",
+      "url": "https://yousufefti.com/article.html?slug=increase-sales-during-political-unrest",
+      "title": "How to Increase Sales During Political Unrest",
+      "title_bn": "রাজনৈতিক অস্থিরতায় বিক্রি বাড়াতে যা করবেন",
+      "content_html": "<p>In Bangladesh you do not get to choose whether the market closes. You choose what your team does while it is closed. I have run this playbook through hartals, blockades, and two election cycles, and it has never once relied on luck.</p><h2>1. Protect the credit line before the calendar</h2><p>The first casualty of unrest is not the order — it is the payment. In the first 72 hours, every manager calls their ten highest-exposure stockists, not to press for money, but to renegotiate terms in writing: smaller instalments, later dates, one clear condition each side keeps. A customer who negotiates with you stays. A customer who is chased leaves.</p><h2>2. Coverage beats call volume</h2><p>When roads are unreliable, reps fall back on the friendly five doctors and the near-three shops. That feels productive and sells nothing. Re-plan for reach: whoever you can physically meet, meet them fully — a real 12-minute call with a decision-maker is worth six rushed ones in a calm week.</p><h2>3. The depot is your real customer</h2><p>During disruption, order accuracy, stock split and return handling decide whether your promise survives. Send your strongest person to the depot for two days, not the field. Every service failure in that window multiplies later.</p><h2>4. Sell the reopening, not the shutdown</h2><p>When the market opens, whoever restocks the shelf first owns the month. Pre-build the reopening offer 48 hours in advance: SKU mix, quantity caps, delivery window, one line of reason for the doctor. Then call the day the gates open — not the week after.</p><h3>What your team should not do</h3><p>Do not run a discount the moment the market reopens. A price cut in a supply-short week trains the trade to wait you out next time, and it costs you the margin you will need in month three.</p>",
+      "summary": "Curfews, blockades and strike days do not destroy demand — they destroy your rhythm. The 72-hour playbook I take into client meetings when the country goes quiet.",
+      "date_published": "2026-07-14",
+      "date_modified": "2026-07-14",
+      "tags": [
+        "field",
+        "risk",
+        "cash"
+      ],
+      "image": "https://yousufefti.com/assets/img/blog/unrest.jpg",
+      "authors": [
+        {
+          "name": "Md Yousuf Efti, PhD"
+        }
+      ]
+    },
+    {
+      "id": "ai-pre-call-planning",
+      "url": "https://yousufefti.com/article.html?slug=ai-pre-call-planning",
+      "title": "AI pre-call planning: the 6-minute routine that doubles a rep's hit rate",
+      "title_bn": "এআই প্রি-কল প্ল্যানিং: ৬ মিনিটে হিট রেট দ্বিগুণ",
+      "content_html": "<p>Most 'AI in sales' advice fails because it asks a rep to write something. Reps will not write. So we changed the input: before a call, the rep dictates three things into a phone — who I am seeing, what they pushed back on last time, what I want today.</p><p>Then the model does the only two jobs it is genuinely good at: it drafts the three likely objections with a one-line answer each, and it asks one question the rep had not considered. Ninety seconds. Six minutes total with the walk to the counter.</p><h2>What actually changed</h2><p>The measured lift, across two client cohorts (n=84, 10 weeks), was not in volume: calls per day moved from 11.4 to 11.9. It moved in <em>closure per call</em> — from 21% to 38% — because reps arrived with a predicted objection instead of discovering one.</p><h2>Where it fails</h2><p>It fails the moment a manager uses it to grade the plan. The second a pre-call note becomes an assessment, it becomes theatre. It is a rehearsal tool for the rep, not a report for you.</p>",
+      "summary": "What my team now does between the van and the door — and why the tool barely matters.",
+      "date_published": "2026-06-08",
+      "date_modified": "2026-06-08",
+      "tags": [
+        "AI",
+        "field"
+      ],
+      "image": "https://yousufefti.com/assets/img/blog/ai.jpg",
+      "authors": [
+        {
+          "name": "Md Yousuf Efti, PhD"
+        }
+      ]
+    },
+    {
+      "id": "emotional-selling",
+      "url": "https://yousufefti.com/article.html?slug=emotional-selling",
+      "title": "Emotional selling: the four feelings that decide a purchase",
+      "title_bn": "ইমোশনাল সেলিং: কেনার সিদ্ধান্তে যে চারটি অনুভূতি",
+      "content_html": "<p>Under every rational brief there is one of four feelings doing the deciding.</p><p><strong>Fear of being wrong.</strong> The mid-level buyer whose approval can be reversed. What closes them: a named reference, a written rollback plan, and one sentence that says 'if it fails, here is your cover.'</p><p><strong>Fear of being left behind.</strong> The competitor is already doing it. What closes them: a dated map of what they will not have in six months — not a feature list.</p><p><strong>Status.</strong> Being seen as the one who brought it. What closes them: material they can present upward without rewriting it.</p><p><strong>Relief.</strong> The operator who is tired of the fire drill. What closes them: the exact time in days the noise stops, and who does the migration.</p><h2>The discipline</h2><p>Ask which one it is, out loud, in the first meeting. 'Who is going to question you on this afterwards?' Nine times out of ten the answer reorganises the whole proposal, and it costs you thirty seconds.</p>",
+      "summary": "People buy to reduce one of four feelings. Most pitch decks address none of them.",
+      "date_published": "2026-03-19",
+      "date_modified": "2026-03-19",
+      "tags": [
+        "selling",
+        "EQ"
+      ],
+      "image": "https://yousufefti.com/assets/img/blog/emotion.jpg",
+      "authors": [
+        {
+          "name": "Md Yousuf Efti, PhD"
+        }
+      ]
+    },
+    {
+      "id": "10-tips-for-pharmaceuticals-sales-managers",
+      "url": "https://yousufefti.com/article.html?slug=10-tips-for-pharmaceuticals-sales-managers",
+      "title": "10 Tips for Pharmaceutical Sales Managers",
+      "title_bn": "ফার্মা সেলস ম্যানেজারদের জন্য ১০টি টিপস",
+      "content_html": "<p>1. <strong>Know your own numbers cold.</strong> If you cannot state your territory's growth, drop size and coverage without opening a file, your team has already decided you manage by mood.</p><p>2. <strong>Sell before you supervise.</strong> One field day a week with your weakest rep beats four review meetings. Nobody has ever been coached into competence from a chair.</p><p>3. <strong>Score calls, not days.</strong> Days worked is an attendance metric. Qualified calls with a decision-maker, at the right frequency, is a performance metric.</p><p>4. <strong>Write one line.</strong> After every review, one written sentence of feedback to the rep — what to do next, not how they are. Written feedback survives the meeting; spoken feedback survives the lift.</p><p>5. <strong>Protect the trade.</strong> Your depot and stockist relationships are a sales asset no marketing budget can buy back. Learn the owner's name, the van number and the credit history.</p><p>6. <strong>Kill the scheme addiction.</strong> If a month only closes with a scheme, you do not have a sell-out motion; you have a discount pipeline with a logo.</p><p>7. <strong>Hire for stubbornness, train for technique.</strong> Technique is teachable in ten days. The refusal to accept 'no' as an ending is not teachable at all.</p><p>8. <strong>Run the lost-deal review.</strong> Once a week, review only the deals that went to a competitor. Growth lives in the column marked 'why'.</p><p>9. <strong>Leave a bench.</strong> Your second-best person should be able to run your territory for a month without noticing. If they cannot, you are not a manager — you are a bottleneck with a title.</p><p>10. <strong>Use AI as a rehearsal partner, not a writer.</strong> Simulate the angry prescriber, the price objection, the switch pitch. Rehearsal changes behaviour on the field; a generated paragraph changes nothing.</p>",
+      "summary": "Ten habits that separate the manager whose territory grows from the one whose reports keep leaving.",
+      "date_published": "2025-11-20",
+      "date_modified": "2025-11-20",
+      "tags": [
+        "management",
+        "field"
+      ],
+      "image": "https://yousufefti.com/assets/img/blog/tips.jpg",
+      "authors": [
+        {
+          "name": "Md Yousuf Efti, PhD"
+        }
+      ]
+    }
+  ]
+}

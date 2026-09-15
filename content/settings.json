@@ -1,0 +1,89 @@
+{
+  "seo": {
+    "siteUrl": "https://yousufefti.com",
+    "name": "Md Yousuf Efti, PhD",
+    "defaultLang": "en",
+    "langs": ["en", "bn"],
+    "geo": "Dhaka,Bangladesh",
+    "ogImage": "/assets/og-efti.jpg",
+    "googleVerify": "REPLACE_WITH_GSC_TXT",
+    "publisher": "Future Icon™ — Sales Leadership Institute"
+  },
+  "brand": {
+    "mark": "YE",
+    "nameEn": "Md Yousuf Efti, PhD",
+    "nameBn": "মোঃ ইউসুফ ইফতি, পিএইচডি",
+    "roleEn": "Sales Leadership Trainer · Best Award-winning Trainer in South Asia (ISTD)",
+    "roleBn": "সেলস লিডারশিপ ট্রেনার · দক্ষিণ এশিয়ার সেরা পুরস্কারপ্রাপ্ত ট্রেনার (ISTD)",
+    "org": "CEO, Future Icon™",
+    "taglineEn": "24,500+ sales people trained. 1,305+ sessions. Five countries.",
+    "taglineBn": "২৪,৫০০+ সেলস মানুষ প্রশিক্ষিত। ১,৩০৫+ সেশন। পাঁচ দেশ।"
+  },
+  "contact": {
+    "hotline": "+880 1754 325325",
+    "whatsapp": "8801754325325",
+    "email": "training@futureiconbd.com",
+    "email2": "yousuf.efti@gmail.com",
+    "address": "Future Icon™, Dhaka, Bangladesh",
+    "hours": "Sat–Thu, 9:30–18:30 (GMT+6)",
+    "linkedin": "https://www.linkedin.com/in/yousufefti",
+    "facebook": "https://www.facebook.com/yousuf.efti",
+    "org": "https://www.facebook.com/FutureIconBangladesh"
+  },
+  "proof": {
+    "trained": 24500,
+    "sessions": 1305,
+    "countries": 5,
+    "followers": 47830,
+    "yearsSales": 19,
+    "clients": ["Incepta Pharma", "Renata Pharma", "SK+F Pharma", "BRAC Enterprises", "UPS", "IBN SINA", "Beacon Pharma", "SMC", "Guardian Life", "Bengal Life", "SME Foundation", "Sylhet Chamber"]
+  },
+  "booking": {
+    "titleEn": "Book a 30-minute sales performance call",
+    "titleBn": "৩০ মিনিটের সেলস পারফরম্যান্স কলে বুক করুন",
+    "tz": "Asia/Dhaka",
+    "durationMin": 30,
+    "bufferMin": 15,
+    "advanceDays": 21,
+    "cutoffHours": 3,
+    "maxPerDay": 6,
+    "openDays": [1, 2, 3, 4, 5, 6],
+    "slots": [
+      { "start": "10:00", "end": "12:00" },
+      { "start": "16:00", "end": "19:30" }
+    ],
+    "platform": "Google Meet",
+    "meetingUrl": "https://meet.google.com/xxx-xxxx-xxx",
+    "feeEn": "Free for teams of 15+ sales people; ৳5,000 adjustable for others.",
+    "confirmation": "A WhatsApp confirmation and a .ics calendar file are issued the moment you book."
+  },
+  "diagnostic": {
+    "name": "Sales Credibility Index™",
+    "questionCount": 10,
+    "shuffleSeedPerVisit": true,
+    "dimensions": ["market", "offer", "pipeline", "trust", "conversion", "retention"],
+    "bands": [
+      { "min": 0,  "max": 39,  "labelEn": "Leaking", "labelBn": "ক্ষরণরত", "adviceEn": "Fix capture before spend: you are paying for attention you cannot keep." },
+      { "min": 40, "max": 59,  "labelEn": "Visible, not believed", "labelBn": "দেখাচ্ছে, বিশ্বাস হয়নি", "adviceEn": "Your proof is in the wrong order. Trust is a sequence, not a logo." },
+      { "min": 60, "max": 79, "labelEn": "Believed, under-monetised", "labelBn": "বিশ্বাস আছে, আয় কম", "adviceEn": "Price and packaging are your ceiling — move from day-rate to programme-rate." },
+      { "min": 80, "max": 100, "labelEn": "Compounding", "labelBn": "ক্রমবর্ধমান", "adviceEn": "You have a system. Now defend it: retention, referrals and category ownership." }
+    ],
+    "reportVia": ["email", "whatsapp"]
+  },
+  "admin": {
+    "passphraseHint": "Default passphrase: efti2026-change-me — change it in the Admin → Security board.",
+    "passphraseSha256": "a2e1eb68effb89f6d80db619ec954fd5867e43e5a59d851a2abadff54cf5272a",
+    "endpoint": "",
+    "note": "Set endpoint to a Google Apps Script Web App URL to sync posts/leads/appointments to Sheets + send email. Leave blank to keep everything in this browser + export JSON."
+  },
+  "theme": { "default": "dark", "cycle": ["light", "bright", "dark"] },
+  "lang": { "default": "en" },
+  "cta": {
+    "primary": { "en": "Book a call", "bn": "কল বুক করুন", "href": "/book.html" },
+    "secondary": { "en": "Free sales diagnostic", "bn": "ফ্রি সেলস ডায়াগনস্টিক", "href": "/diagnostic.html" }
+  },
+  "leadMagnet": {
+    "en": { "title": "The 10-Point Sales Credibility Checklist", "body": "The exact sheet I use before I quote a training programme — one PDF, no sequence." },
+    "bn": { "title": "১০-পয়েন্ট সেলস ক্রেডিবিলিটি চেকলিস্ট", "body": "প্রশিক্ষণের দাম বলা আগে আমি যে শিটটি ব্যবহার করি — একটি পিডিএফ, কোনো সিকোয়েন্স নয়।" }
+  }
+}

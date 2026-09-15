@@ -1,0 +1,24 @@
+{
+  "name": "Yousuf Efti — Sales Leadership Trainer",
+  "short_name": "Efti Sales",
+  "description": "Sales leadership training, a free credibility diagnostic, programmes, articles and live booking — Bangla and English.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#080c14",
+  "theme_color": "#080c14",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["education", "business", "productivity"],
+  "icons": [
+    { "src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Sales diagnostic", "url": "diagnostic.html", "description": "10 questions, instant index" },
+    { "name": "Book a call", "url": "book.html", "description": "30 minutes, live slots" },
+    { "name": "Programmes", "url": "courses.html", "description": "8 cohorts with dashboards" }
+  ]
+}

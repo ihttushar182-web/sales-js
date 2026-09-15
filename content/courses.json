@@ -1,0 +1,147 @@
+{
+  "$note": "Demo pricing & cohort dates — replace with real ones (docs/CONTENT-GUIDE.md). Titles mirror his public workshop catalogue.",
+  "currency": "BDT",
+  "courses": [
+    {
+      "id": "pharma-sales-leadership",
+      "featured": true,
+      "badge": "Signature",
+      "titleEn": "AI-Integrated Pharma Sales Leadership for High Performance",
+      "titleBn": "এআই-ইন্টিগ্রেটেড ফার্মা সেলস লিডারশিপ ফর হাই পারফরম্যান্স",
+      "summaryEn": "For Sr. Area Managers and NSMs: run a territory like a business — pipeline, coaching cadence, and AI-assisted field decisions.",
+      "summaryBn": "সিনিয়র এরিয়া ম্যানেজার ও এনএসএম-এর জন্য: টেরিটরিকে ব্যবসার মতো চালান — পাইপলাইন, কোচিং ক্যাডেন্স ও এআই-সহায়িত ফিল্ড সিদ্ধান্ত।",
+      "level": "Advanced", "format": "In-house · 3 days · 25-35 pax", "duration": "3 days",
+      "price": 420000, "priceNote": "per cohort (public rate)", "nextCohort": "2026-10-18", "seatsLeft": 9,
+      "enrolled": 1840, "rating": 4.9, "tags": ["leadership", "pharma", "AI"],
+      "modules": [
+        { "en": "From supervisor to leader: the identity shift nobody trains you for", "bn": "সুপারভাইজার থেকে লিডার: পরিচয়ের পরিবর্তন" },
+        { "en": "Territory maths: coverage, frequency, growth share, drop-size", "bn": "টেরিটরি হিসাব: কভারেজ, ফ্রিকোয়েন্সি, গ্রোথ শেয়ার" },
+        { "en": "The 4-check weekly review that replaces the 'how many calls did you do' walk", "bn": "সপ্তাহিক ৪-চেক রিভিউ" },
+        { "en": "AI in the field: call planning, objection drills, debrief summaries", "bn": "ফিল্ডে এআই: কল প্ল্যানিং, ওবজেকশন ড্রিল" },
+        { "en": "Conflict, retention and the exit conversation you keep delaying", "bn": "দ্বন্দ্ব, ধরে রাখা ও বিদায়-কথোপকথন" },
+        { "en": "90-day change plan with a manager scorecard", "bn": "৯০ দিনের পরিবর্তন পরিকল্পনা" }
+      ],
+      "outcomes": ["Written coaching cadence", "Territory dashboard you build live in class", "90-day individual change plan", "Attendance + impact certificate"]
+    },
+    {
+      "id": "selling-skills",
+      "featured": true,
+      "badge": "Best seller",
+      "titleEn": "AI-Integrated Pharma Selling Skills for High Performance",
+      "titleBn": "এআই-ইন্টিগ্রেটেড ফার্মা সেলিং স্কিলস",
+      "summaryEn": "Field reps: pre-call planning, probing, brand-detail closing, and the follow-up that most reps simply never do.",
+      "summaryBn": "ফিল্ড রিপ্রেজেনটেটিভ: প্রি-কল প্ল্যানিং, প্রোবিং, ব্র্যান্ড-ডিটেইল ক্লোজিং এবং যে ফলো-আপ বেশিরভাগ রিপ্রেজেনটেটিভ করে না।",
+      "level": "All levels", "format": "In-house · 2 days", "duration": "2 days",
+      "price": 280000, "priceNote": "per cohort", "nextCohort": "2026-10-05", "seatsLeft": 14,
+      "enrolled": 5210, "rating": 4.8, "tags": ["selling", "field", "AI"],
+      "modules": [
+        { "en": "The 90-second opening that earns the rest of the call", "bn": "৯০ সেকেন্ডের ওপেনিং" },
+        { "en": "Probing before pitching: 7 questions that qualify a doctor or a depot", "bn": "প্রোবিং আগে, পিচ পরে" },
+        { "en": "Detailing to a decision, not to a nod", "bn": "ডिटেলিং: সিদ্ধান্তের জন্য" },
+        { "en": "Objection drills with AI-generated hard cases", "bn": "এআই-জনিত কঠিন ওবজেকশন ড্রিল" },
+        { "en": "Follow-up spine: 24h recap, day-3 proof, day-7 ask", "bn": "ফলো-আপ স্পাইন" }
+      ],
+      "outcomes": ["Personal call script", "Objection bank (40 cards)", "Recorded roleplay review", "Field scorecard"]
+    },
+    {
+      "id": "train-the-trainer",
+      "badge": "Certification",
+      "titleEn": "Train-the-Trainer (ToT) — IFC-LPI aligned",
+      "titleBn": "ট্রেন-দা-ট্রেনার (ToT) — IFC-LPI অ্যালাইনড",
+      "summaryEn": "Turn your best performers into certified internal trainers: content design, facilitation, evaluation, KPI handoff.",
+      "summaryBn": "সেরা পারফর্মারদের অভ্যন্তরীণ ট্রেনারে রূপ দিন: কনটেন্ট ডিজাইন, ফ্যাসিলিটেশন, মূল্যায়ন।",
+      "level": "Internal trainers", "format": "5 days + assessment", "duration": "5 days",
+      "price": 95000, "priceNote": "per participant", "nextCohort": "2026-11-09", "seatsLeft": 6,
+      "enrolled": 410, "rating": 4.9, "tags": ["certification", "T&D"],
+      "modules": [
+        { "en": "Adult learning and why 3-slide decks fail", "bn": "প্রাপ্তবয়স্ক শিক্ষা" },
+        { "en": "Module design: objective → activity → measure", "bn": "মডিউল ডিজাইন" },
+        { "en": "Stage control: voice, silence, movement, questions", "bn": "মঞ্চ নিয়ন্ত্রণ" },
+        { "en": "Handling the difficult room", "bn": "কঠিন অডিএন্স সামলানো" },
+        { "en": "Evaluation: Kirkpatrick beyond the smile sheet", "bn": "মূল্যায়ন: কার্কপ্যাট্রিক" }
+      ],
+      "outcomes": ["Certified internal trainer status", "One finished module you own", "Facilitation video review"]
+    },
+    {
+      "id": "newly-promoted-leaders",
+      "badge": "New",
+      "titleEn": "Newly Promoted Sales Leaders: Forming to Performing",
+      "titleBn": "নতুন পদোন্নত সেলস লিডার: ফর্মিং থেকে পারফর্মিং",
+      "summaryEn": "The first 180 days of leading a team that used to be your peers — the four stages and what to do in each.",
+      "summaryBn": "আপনার পূর্বের সহকর্মীদের নেতৃত্ব দেওয়ার প্রথম ১৮০ দিন।",
+      "level": "First-time managers", "format": "2 days + 3 follow-up clinics", "duration": "2 days",
+      "price": 65000, "priceNote": "per participant", "nextCohort": "2026-10-26", "seatsLeft": 11,
+      "enrolled": 260, "rating": 4.7, "tags": ["leadership", "retention"],
+      "modules": [
+        { "en": "Forming: set the contract, not the target", "bn": "ফর্মিং: চুক্তি আগে, টার্গেট পরে" },
+        { "en": "Storming: conflict scripts that keep people", "bn": "স্টর্মিং: দ্বন্দ্ব ব্যবস্থাপনা" },
+        { "en": "Norming: rituals, cadence, visible scoreboards", "bn": "নর্মিং: রিচুয়াল ও স্কোরবোর্ড" },
+        { "en": "Performing: coaching the top and the tail", "bn": "পারফর্মিং: কোচিং" }
+      ],
+      "outcomes": ["180-day plan", "1:1 template", "Team charter"]
+    },
+    {
+      "id": "ai-intelligence-eq",
+      "titleEn": "AI-Integrated Emotional Intelligence for Sales Professionals",
+      "titleBn": "সেলস পেশাজীবীদের জন্য এআই-ইন্টিগ্রেটেড ইমোশনাল ইন্টেলিজেন্স",
+      "summaryEn": "Read the room, then use the read: EQ applied to buying signals, depot moods and angry customers.",
+      "summaryBn": "রুম পড়ুন, তারপর সেই বোঝা ব্যবহার করুন: কেনার সংকেত ও ক্রয়গ্রহীতার মানসিকতা।",
+      "level": "All levels", "format": "1 day", "duration": "1 day",
+      "price": 150000, "priceNote": "per cohort", "nextCohort": "2026-11-02", "seatsLeft": 20,
+      "enrolled": 1120, "rating": 4.8, "tags": ["EQ", "communication"],
+      "modules": [
+        { "en": "Four buying emotions and the words each one wants", "bn": "চারটি কেনার আবেগ" },
+        { "en": "De-escalation in 4 moves", "bn": "৪ ধাপে ডি-এস্কালেশন" },
+        { "en": "AI as rehearsal: simulate the hard conversation", "bn": "এআই রিহার্সাল" }
+      ],
+      "outcomes": ["Personal triggers map", "De-escalation card"]
+    },
+    {
+      "id": "negotiation-relationship",
+      "titleEn": "The Art of Sales Negotiation & Relationship Building",
+      "titleBn": "সেলস নেগোসিয়েশন ও সম্পর্ক গড়া",
+      "summaryEn": "Margins, credit terms, listing fees and stockist politics — protect the price, keep the person.",
+      "summaryBn": "মার্জিন, ক্রেডিট টার্মস, লিস্টিং ফি — দাম রক্ষা করুন, সম্পর্কও।",
+      "level": "Intermediate+", "format": "2 days", "duration": "2 days",
+      "price": 240000, "priceNote": "per cohort", "nextCohort": "2026-11-16", "seatsLeft": 12,
+      "enrolled": 690, "rating": 4.9, "tags": ["negotiation", "trade"],
+      "modules": [
+        { "en": "What you can actually concede (and what you only pretend to)", "bn": "কী ছাড় দেওয়া যায়" },
+        { "en": "Trade terms: listing, expiry, credit, scheme", "bn": "ট্রেড টার্মস" },
+        { "en": "The 3 asks that reopen a stalled deal", "bn": "আটকে যাওয়া ডিল খোলার ৩টি অনুরোধ" }
+      ],
+      "outcomes": ["Concession ladder", "Live negotiation lab", "Terms playbook"]
+    },
+    {
+      "id": "customer-service-depot",
+      "titleEn": "Customer Service Excellence for Depot In-Charges",
+      "titleBn": "ডিপো ইন-চার্জদের জন্য কাস্টমার সার্ভিস এক্সেলেন্স",
+      "summaryEn": "Order accuracy, returns, response time and the depot voice that decides whether a rep's promise survives.",
+      "summaryBn": "অর্ডার নির্ভুলতা, রিটার্ন, রেসপন্স টাইম — ডিপোর কণ্ঠস্বরই রিপের প্রতিশ্রুতি টিকিয়ে রাখে।",
+      "level": "Operations", "format": "1 day", "duration": "1 day",
+      "price": 120000, "priceNote": "per cohort", "nextCohort": "2026-10-12", "seatsLeft": 18,
+      "enrolled": 380, "rating": 4.6, "tags": ["service", "operations"],
+      "modules": [
+        { "en": "The four moments a customer decides to stay", "bn": "কাস্টমার যে চারটি মুহূর্তে সিদ্ধান্ত নেয়" },
+        { "en": "Returns and credit conversations without blame", "bn": "রিটার্ন ও ক্রেডিট কথোপকথন" }
+      ],
+      "outcomes": ["Service promise card", "Response SLA draft"]
+    },
+    {
+      "id": "marketing-pmd",
+      "titleEn": "Futuristic Pharma Marketing for PMD Leaders",
+      "titleBn": "পিএমডি লিডারদের জন্য ভবিষ্যৎমুখী ফার্মা মার্কেটিং",
+      "summaryEn": "Brand strategy that survives a commodity market: segmentation, launch sequencing, field-marketing alignment, AI research.",
+      "summaryBn": "কমোডিটি মার্কেটে টিকে থাকা ব্র্যান্ড কৌশল: সেগমেন্টেশন, লঞ্চ সিকোয়েন্স, ফিল্ড-মার্কেটিং অ্যালাইনমেন্ট।",
+      "level": "Managers+", "format": "2 days", "duration": "2 days",
+      "price": 260000, "priceNote": "per cohort", "nextCohort": "2026-11-23", "seatsLeft": 8,
+      "enrolled": 240, "rating": 4.8, "tags": ["marketing", "brand", "AI"],
+      "modules": [
+        { "en": "Positioning a molecule in a crowded shelf", "bn": "ভিড়ের মধ্যে অণুর পজিশনিং" },
+        { "en": "Launch sequencing: pilot, proof, pressure", "bn": "লঞ্চ সিকোয়েন্স" },
+        { "en": "Marketing that field reps can actually use", "bn": "যে মার্কেটিং রিপ্রে ব্যবহার করতে পারে" }
+      ],
+      "outcomes": ["Brand one-pager", "Field kit spec", "Launch calendar"]
+    }
+  ]
+}

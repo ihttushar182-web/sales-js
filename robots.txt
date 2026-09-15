@@ -1,5 +1,21 @@
+# Md Yousuf Efti, PhD — static site
 User-agent: *
 Allow: /
-Disallow: /audit.html?to=
-Disallow: /pitch.html?to=
-Sitemap: https://yourdomain.com/sitemap.xml
+# personalised outreach and editor pages must not be indexed
+Disallow: /admin.html
+Disallow: /*?to=
+Disallow: /*&to=
+Crawl-delay: 1
+
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://yousufefti.com/sitemap.xml

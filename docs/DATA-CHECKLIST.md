@@ -65,3 +65,48 @@ Approve-before-publish protects you and makes saying yes trivial for them.
 - [ ] LinkedIn/WhatsApp unfurl shows the `og-cover.jpg` card and the right title
 - [ ] Lighthouse (mobile): Performance ≥ 95, Accessibility ≥ 95, Best practices 100, SEO 100
 - [ ] Print the audit result page → the summary arrives legibly (some buyers print and pass it to a partner)
+
+---
+
+# Part B — the Yousuf Efti site: what is real, what is demo
+
+The site you are reading is a **working sample built before any interview**, so some figures were modelled, not
+collected. This table is the honest split. Anything marked **demo** must be replaced with a real number or the claim
+must be deleted — publishing an invented result is the one thing that can turn this asset into a liability.
+
+## Real (taken from his public profile / banner / verified pages)
+| Claim | Source | Where it appears |
+|---|---|---|
+| 1,350+ trainings & sessions; 5 countries (BDG, IND, NEP, THA, MYS, SIN) | his LinkedIn banner | index stats, `llms.txt`, Person schema `description` |
+| 1,305+ sessions | Taponel Ltd bio | footnote on index |
+| 47,830 followers, 500+ connections | LinkedIn header | outreach page only (not his site) |
+| Founder & CEO Future Icon™; Sales Leadership Trainer at 10 Minute School; Chairperson T&D at BOLD; Course Author at Thriving Skills; Consultant at FutureLeaders™; MD at Digital Fast Aid Hospital; ex-Area Manager / Professional Medical Rep at Opsonin Pharma; ex-Manager CSR at McDonald's | LinkedIn experience | Person schema `jobTitle`, `worksFor`, `alumniOf` |
+| PhD in Management (Universiti Putra Malaysia); PGD-MPD (Malaysia); MBA Marketing (University of Dhaka); BSc Pharmacy (DU); Post Graduate Certificate in European Business (UK); IFC-LPI Certified (Netherlands); Certified Management Consultant (BCSIR); GGAF | LinkedIn + Taponel bio | hero, `knowsAbout` |
+| ISTI International Best Trainer Award — South Asia, 2022; Best Trainer Award, Transcom Foods | LinkedIn honour | `award` in schema, trust section |
+| Opsonin Pharma 15 years | Grow Learn Connect bio | trust copy |
+| +880 1754 325325 · training@futureiconbd.com · www.futureiconbd.com | banner contact strip | `settings.json → contact` everywhere |
+| +880 1776 888555 (WhatsApp) | Taponel Ltd listing | **two phone numbers exist in public record — confirm which is the public lead line before publishing** |
+| Runs 5 organisations; 15+ years in pharma sales; community work (Eid shirts, winter blankets) | growlearnconnect.org | `llms.txt`, about copy |
+
+## Demo — replace or delete before publishing
+| Where | Number | Why it is unsafe as-is |
+|---|---|---|
+| index stats | **24,500 professionals trained** | modelled from 1,350 sessions × ~18 pax. Use his own count or say "across 1,350+ sessions" |
+| index stats | **47,830 followers** | true today, but it is a vanity metric on *his* site; keep it on your outreach page instead |
+| index results band | **4,200+ salespeople** | modelled; not sourced |
+| hero card | **38 enterprise clients · 4 years avg tenure** | invented |
+| lead magnet | **900 L&D managers on the list** | invented |
+| courses | **all 8 prices (৳6,500 – ৳750,000), seatsLeft, enrolled, rating 4.8–4.9** | invented market-rate estimates — and `rating`/`enrolled` feed `Course` schema: **delete `aggregateRating` unless he can show the source reviews** |
+| courses | dates `2026-08 → 2026-12` | placeholders; swap for the real calendar |
+| index FAQ | **৳9.6 Cr / +41% / 72% completion / 27% faster ramp-up** | invented benchmark outcomes — replace with a named client's approved figure or cut the sentence |
+| diagnostic copy | "12-question index", "8 minutes", "1,500+ completed" | the tool is **10** questions in 4 minutes; `1,500+` is invented — change to "used in classrooms" or delete |
+| articles | all 5 bodies, `2017` article from the earlier build, and the benchmark tables | the funnel benchmarks are published industry ranges (cited in README) but **his own case numbers are composites**; label them "illustrative" until he gives a client-approved figure |
+| gallery | captions `g1…g10`, "Cohort 12", "Dhaka" | placeholders — rewritten when real photos arrive |
+
+## To ask him for (10 minutes, changes everything)
+1. One approved client result: sector, cohort size, metric moved, % move, period, and whether the client is named.
+2. Real programme prices + the next 3 cohort dates.
+3. Which phone is the public lead line (+880 1754 325325 vs +880 1776 888555).
+4. Review source (Google GBP / ThriveSarts / internal survey) → then and only then keep `rating` in JSON.
+5. 10 photos (see `docs/CONTENT-GUIDE.md` §4 list).
+6. Does he want a paid product on the site (webinar → cohort funnel) or corporate-only (diagnostic → in-house proposal)? The site works for both; the hero should say which one first.

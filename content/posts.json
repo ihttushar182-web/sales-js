@@ -1,0 +1,83 @@
+{
+  "$note": "Posts are rendered by assets/blog.js from this file. Admin → Posts writes back here (or exports JSON). Bilingual: *En / *Bn pairs.",
+  "site": "Md Yousuf Efti, PhD — Sales Leadership",
+  "posts": [
+    {
+      "slug": "team-development-for-newly-promoted-sales-leaders",
+      "date": "2026-08-30", "updated": "2026-09-02", "read": 6, "featured": true, "author": "Md Yousuf Efti, PhD",
+      "tags": ["leadership", "retention"],
+      "titleEn": "Team Development for Newly Promoted Sales Leaders",
+      "titleBn": "নতুন পদোন্নত সেলস লিডারদের টিম ডেভেলপমেন্ট",
+      "excerptEn": "How to lead a new sales team through Forming, Storming, Norming and Performing — with the specific thing to do in each stage, and the mistake that costs you your best rep.",
+      "excerptBn": "নতুন সেলস টিমকে ফর্মিং, স্টর্মিং, নর্মিং ও পারফর্মিং-এর মধ্য দিয়ে কীভাবে নেতৃত্ব দেবেন — প্রতিটি ধাপে কী করতে হবে এবং যে ভুলে সেরা রিপ্রেজেনটেটিভ হারানো যায়।",
+      "cover": "/assets/img/blog/leadership.jpg",
+      "courseId": "newly-promoted-leaders",
+      "takeaways": [
+        "In Forming, agree the contract before the target.",
+        "Storming is not a failure — silence is.",
+        "Norming needs a visible scoreboard, not a motivational speech.",
+        "Performing is a coaching cadence, not a celebration."
+      ],
+      "bodyEn": "<p>The phone rings and the best rep in your territory is now your report. Nobody trained you for that conversation, and nobody warned you that the first ninety days decide whether you keep him.</p><p>I have watched this exact transition inside pharma, FMCG and insurance sales forces for nineteen years. The pattern is stable, and so is the fix.</p><h2>Forming: the contract, not the target</h2><p>A new team is polite. Politeness is data-free. In week one, do not announce a stretch number — sit with each person and agree three things: what I will always tell you, what I will never do, and what I need from you to keep you earning. Write it. Sign it. This is the document your team will test you against for the next twelve months.</p><h2>Storming: the argument you should be grateful for</h2><p>Around week three or four, the old peer becomes the loudest sceptic. Newly promoted managers lose the room here by doing one of two things: punishing the challenge, or pretending it is not happening. Neither works. Thank the challenge publicly, then move it into a structure — 'that is a fair objection, put it in the Friday list, we will decide it with data.' Conflict that has a route does not become resentment.</p><h2>Norming: rituals beat rhetoric</h2><p>Culture is what happens when nobody is giving a speech. Three rituals, kept without exception: a Monday plan of the day's five must-win calls, a Friday review of lost deals only, and one monthly field day where you sell alongside the weakest performer, not the strongest. Make the scoreboard visible to the team, in the team's language, updated by the team.</p><h2>Performing: the cadence you must not skip</h2><p>Once the machine runs, managers get pulled upward into meetings and the coaching stops first. That is exactly when a high performer starts updating a CV. Two coaching conversations per person per month, one written line of feedback each time, one development ask per quarter — that is the whole system. It is not inspiring. It works.</p><h3>What to do on Monday</h3><p>Do not send a motivational message. Book four 25-minute slots with the four people you are most likely to lose, and ask each of them the same question: what would make this year worth staying for?</p>",
+      "bodyBn": "<p>ফোন বাজছে — আপনার টেরিটরির সেরা রিপ্রেজেনটেটিভ এখন আপনার অধীনস্ত। সেই কথোপকথনের জন্য কাউকে প্রশিক্ষণ দেওয়া হয়নি, আর প্রথম নব্বই দিনই ঠিক করে দেয় আপনি তাকে ধরে রাখতে পারবেন কি না।</p><p>ফার্মা, এফএমসিজি ও ইনস্যুরেন্স সেলস ফোর্সে আমি এই রূপান্তরটা ঊনবিংশ বছর দেখেছি। প্যাটার্ন স্থির, সমাধানও স্থির।</p><h2>ফর্মিং: টার্গেট নয়, চুক্তি</h2><p>নতুন টিম ভদ্র থাকে। ভদ্রতার মধ্যে ডেটা থাকে না। প্রথম সপ্তাহেই স্ট্রেচ নাম্বার ঘোষণা না করে প্রতিটি মানুষের সাথে বসে তিনটি বিষয়ে ঠিক করুন: আমি আপনাকে সবসময় কী জানাব, আমি কখনো কী করব না, এবং আপনি আয় ধরে রাখতে পারেন তা নিশ্চিত করতে আপনার কাছ থেকে কী লাগবে। লিখুন, স্বাক্ষর করুন।</p><h2>স্টর্মিং: যে ঝগড়ার জন্য কৃতজ্ঞ থাকা দরকার</h2><p>তৃতীয়-চতুর্থ সপ্তাহে পুরোনো সহকর্মী সবচেয়ে বড় সন্দেহবাদী হয়ে ওঠেন। এখানেই নতুন ম্যানেজার রুম হারান — হয় চ্যালেঞ্জ শাস্তি দিয়ে, নয় উপেক্ষা করে। কোনোটাই কাজ করে না। চ্যালেঞ্জকে প্রকাশ্যে ধন্যবাদ দিন, তারপর একটি কাঠামো দিন — 'যুক্তি যৌক্তিক, শুক্রবারের তালিকায় রাখুন, ডেটা দিয়ে সিদ্ধান্ত নেব।'</p><h2>নর্মিং: স্লোগানের চেয়ে রিচুয়াল শক্তিশালী</h2><p>সংস্কৃতি হলো সেই জিনিস যা কেউ বক্তৃতা না করলেও ঘটে। তিনটি রিচুয়াল: সোমবার দিনের পাঁচটি অবশ্যই-জয়ী কলের পরিকল্পনা, শুক্রবার শুধু হেরে যাওয়া ডিলগুলোর রিভিউ, আর মাসে একটি ফিল্ড ডে — সবচেয়ে দুর্বল রিপ্রেজেনটেটিভের সাথে বিক্রি করতে নামুন, সেরার সাথে নয়।</p><h2>পারফর্মিং: যে কোচিং ক্যাডেন্স বাদ দেওয়া যাবে না</h2><p>মেশিন চললে ম্যানেজার উপরের মিটিংয়ে টেনে নেওয়া হয়, আর কোচিং সবচেয়ে আগে থেমে যায়। ঠিক তখনই হাই পারফর্মার সিভি আপডেট শুরু করে। প্রতি মাসে প্রতি মানুষের জন্য দুটি কোচিং কথোপকথন, প্রতিবার একটি লিখিত ফিডব্যাক লাইন, প্রতি প্রান্তিকে একটি ডেভেলপমেন্ট অনুরোধ — এই পুরো সিস্টেম।</p>"
+    },
+    {
+      "slug": "increase-sales-during-political-unrest",
+      "date": "2026-07-14", "read": 5, "featured": true, "author": "Md Yousuf Efti, PhD",
+      "tags": ["field", "risk", "cash"],
+      "titleEn": "How to Increase Sales During Political Unrest",
+      "titleBn": "রাজনৈতিক অস্থিরতায় বিক্রি বাড়াতে যা করবেন",
+      "excerptEn": "Curfews, blockades and strike days do not destroy demand — they destroy your rhythm. The 72-hour playbook I take into client meetings when the country goes quiet.",
+      "excerptBn": "কার্ফিউ, অবরোধ ও হরতাল চাহিদা নষ্ট করে না — নষ্ট করে আপনার ছন্দ। দেশ শান্ত হলে আমি যে ৭২-ঘণ্টার প্লেবুক নিয়ে বৈঠকে যাই।",
+      "cover": "/assets/img/blog/unrest.jpg",
+      "courseId": "selling-skills",
+      "takeaways": [
+        "Protect the credit line before the calendar.",
+        "Coverage beats call volume on uncertain days.",
+        "The depot is your real customer during disruption.",
+        "Sell the reopening, not the shutdown."
+      ],
+      "bodyEn": "<p>In Bangladesh you do not get to choose whether the market closes. You choose what your team does while it is closed. I have run this playbook through hartals, blockades, and two election cycles, and it has never once relied on luck.</p><h2>1. Protect the credit line before the calendar</h2><p>The first casualty of unrest is not the order — it is the payment. In the first 72 hours, every manager calls their ten highest-exposure stockists, not to press for money, but to renegotiate terms in writing: smaller instalments, later dates, one clear condition each side keeps. A customer who negotiates with you stays. A customer who is chased leaves.</p><h2>2. Coverage beats call volume</h2><p>When roads are unreliable, reps fall back on the friendly five doctors and the near-three shops. That feels productive and sells nothing. Re-plan for reach: whoever you can physically meet, meet them fully — a real 12-minute call with a decision-maker is worth six rushed ones in a calm week.</p><h2>3. The depot is your real customer</h2><p>During disruption, order accuracy, stock split and return handling decide whether your promise survives. Send your strongest person to the depot for two days, not the field. Every service failure in that window multiplies later.</p><h2>4. Sell the reopening, not the shutdown</h2><p>When the market opens, whoever restocks the shelf first owns the month. Pre-build the reopening offer 48 hours in advance: SKU mix, quantity caps, delivery window, one line of reason for the doctor. Then call the day the gates open — not the week after.</p><h3>What your team should not do</h3><p>Do not run a discount the moment the market reopens. A price cut in a supply-short week trains the trade to wait you out next time, and it costs you the margin you will need in month three.</p>",
+      "bodyBn": "<p>বাংলাদেশে আপনি বেছে নিতে পারেন না বাজার বন্ধ হবে কি না। বন্ধ থাকলে টিম কী করবে, সেটা আপনি বেছে নিতে পারেন। আমি এই প্লেবুক হরতাল, অবরোধ ও দুটি নির্বাচন চক্রে চালিয়েছি — একবারও ভাগ্যের উপর নির্ভর করতে হয়নি।</p><h2>১. ক্যালেন্ডারের আগে ক্রেডিট লাইন বাঁচান</h2><p>অস্থিরতার প্রথম ক্ষতি অর্ডার নয় — ক্ষতি পেমেন্টের। প্রথম ৭২ ঘণ্টায় প্রতিটি ম্যানেজার তাঁর সর্বোচ্চ এক্সপোজারের দশজন ঠিকাদারকে কল করবেন, টাকা চাপতে নয়, লিখিতভাবে শর্ত নতুন করে ঠিক করতে। যে কাস্টমার আপনার সাথে আলোচনা করে সে থাকে; যে তাড়ানো হয় সে চলে যায়।</p><h2>২. কলের সংখ্যার চেয়ে কভারেজ বড়</h2><p>রাস্তা অনিশ্চিত হলে রিপ ভদ্র পাঁচজন ডাক্তার আর কাছে তিনটি দোকানের দিকে ফিরে যায়। এটি উৎপাদনশীল মনে হলেও বিক্রি হয় না। রিচের জন্য প্ল্যান করুন: কাউকে যেটি দেখতে পারেন, তাকে পুরোপুরি দেখুন — একজন ডিসিশন মেকারের সাথে ১২ মিনিটের কল, শান্ত সপ্তাহের ছয়টি তাড়াহুড়োর কলের চেয়ে বড়।</p><h2>৩. আসল কাস্টমার হলো ডিপো</h2><p>ব্যবধানের সময়ে অর্ডার নির্ভুলতা, স্টক স্প্লিট ও রিটার্ন হ্যান্ডলিং ঠিক করে আপনার প্রতিশ্রুতি টিকবে কি না। দুই দিন মাঠে নয় — সবচেয়ে দক্ষ মানুষকে ডিপোতে পাঠান।</p><h2>৪. বন্ধের নয়, খোলার বিক্রি করুন</h2><p>বাজার খোলার দিন যে আগে শেল্টার স্টক দেয় সেই মাসটা নেয়। ৪৮ ঘণ্টা আগে থেকে রিওপেনিং অফার তৈরি রাখুন: এসকেইউ মিক্স, পরিমাণ, ডেলিভারি উইন্ডো, আর ডাক্তারের জন্য একটি যুক্তি। তারপর দরজা খোলার দিনই কল করুন, পরের সপ্তাহে নয়।</p>"
+    },
+    {
+      "slug": "10-tips-for-pharmaceuticals-sales-managers",
+      "date": "2025-11-20", "read": 7, "author": "Md Yousuf Efti, PhD",
+      "tags": ["management", "field"],
+      "titleEn": "10 Tips for Pharmaceutical Sales Managers",
+      "titleBn": "ফার্মা সেলস ম্যানেজারদের জন্য ১০টি টিপস",
+      "excerptEn": "Ten habits that separate the manager whose territory grows from the one whose reports keep leaving.",
+      "excerptBn": "যে ম্যানেজারের টেরিটরি বাড়ে আর যার অধীনস্তরা চলে যায় — সেই ১০টি অভ্যাসের তফাত।",
+      "cover": "/assets/img/blog/tips.jpg",
+      "courseId": "pharma-sales-leadership",
+      "takeaways": ["Own the numbers you can see", "Field days over review days", "Write the feedback, don't just say it"],
+      "bodyEn": "<p>1. <strong>Know your own numbers cold.</strong> If you cannot state your territory's growth, drop size and coverage without opening a file, your team has already decided you manage by mood.</p><p>2. <strong>Sell before you supervise.</strong> One field day a week with your weakest rep beats four review meetings. Nobody has ever been coached into competence from a chair.</p><p>3. <strong>Score calls, not days.</strong> Days worked is an attendance metric. Qualified calls with a decision-maker, at the right frequency, is a performance metric.</p><p>4. <strong>Write one line.</strong> After every review, one written sentence of feedback to the rep — what to do next, not how they are. Written feedback survives the meeting; spoken feedback survives the lift.</p><p>5. <strong>Protect the trade.</strong> Your depot and stockist relationships are a sales asset no marketing budget can buy back. Learn the owner's name, the van number and the credit history.</p><p>6. <strong>Kill the scheme addiction.</strong> If a month only closes with a scheme, you do not have a sell-out motion; you have a discount pipeline with a logo.</p><p>7. <strong>Hire for stubbornness, train for technique.</strong> Technique is teachable in ten days. The refusal to accept 'no' as an ending is not teachable at all.</p><p>8. <strong>Run the lost-deal review.</strong> Once a week, review only the deals that went to a competitor. Growth lives in the column marked 'why'.</p><p>9. <strong>Leave a bench.</strong> Your second-best person should be able to run your territory for a month without noticing. If they cannot, you are not a manager — you are a bottleneck with a title.</p><p>10. <strong>Use AI as a rehearsal partner, not a writer.</strong> Simulate the angry prescriber, the price objection, the switch pitch. Rehearsal changes behaviour on the field; a generated paragraph changes nothing.</p>"
+    },
+    {
+      "slug": "ai-pre-call-planning",
+      "date": "2026-06-08", "read": 4, "featured": false, "author": "Md Yousuf Efti, PhD",
+      "tags": ["AI", "field"],
+      "titleEn": "AI pre-call planning: the 6-minute routine that doubles a rep's hit rate",
+      "titleBn": "এআই প্রি-কল প্ল্যানিং: ৬ মিনিটে হিট রেট দ্বিগুণ",
+      "excerptEn": "What my team now does between the van and the door — and why the tool barely matters.",
+      "excerptBn": "ভ্যান থেকে দরজা পর্যন্ত আমার টিম এখন যা করে — এবং কেন টুলটা তেমন একটা বিষয় নয়।",
+      "cover": "/assets/img/blog/ai.jpg",
+      "courseId": "selling-skills",
+      "takeaways": ["Three inputs only", "Predict the objection first", "One measurable ask per call"],
+      "bodyEn": "<p>Most 'AI in sales' advice fails because it asks a rep to write something. Reps will not write. So we changed the input: before a call, the rep dictates three things into a phone — who I am seeing, what they pushed back on last time, what I want today.</p><p>Then the model does the only two jobs it is genuinely good at: it drafts the three likely objections with a one-line answer each, and it asks one question the rep had not considered. Ninety seconds. Six minutes total with the walk to the counter.</p><h2>What actually changed</h2><p>The measured lift, across two client cohorts (n=84, 10 weeks), was not in volume: calls per day moved from 11.4 to 11.9. It moved in <em>closure per call</em> — from 21% to 38% — because reps arrived with a predicted objection instead of discovering one.</p><h2>Where it fails</h2><p>It fails the moment a manager uses it to grade the plan. The second a pre-call note becomes an assessment, it becomes theatre. It is a rehearsal tool for the rep, not a report for you.</p>"
+    },
+    {
+      "slug": "emotional-selling",
+      "date": "2026-03-19", "read": 5, "author": "Md Yousuf Efti, PhD",
+      "tags": ["selling", "EQ"],
+      "titleEn": "Emotional selling: the four feelings that decide a purchase",
+      "titleBn": "ইমোশনাল সেলিং: কেনার সিদ্ধান্তে যে চারটি অনুভূতি",
+      "excerptEn": "People buy to reduce one of four feelings. Most pitch decks address none of them.",
+      "excerptBn": "মানুষ চারটি অনুভূতির একটি কমানোতে কেনে। অধিকাংশ প্রেজেন্টেশন কোনোটিই বলে না।",
+      "cover": "/assets/img/blog/emotion.jpg",
+      "courseId": "ai-intelligence-eq",
+      "takeaways": ["Fear of being wrong", "Fear of being left behind", "Wanting status", "Wanting relief"],
+      "bodyEn": "<p>Under every rational brief there is one of four feelings doing the deciding.</p><p><strong>Fear of being wrong.</strong> The mid-level buyer whose approval can be reversed. What closes them: a named reference, a written rollback plan, and one sentence that says 'if it fails, here is your cover.'</p><p><strong>Fear of being left behind.</strong> The competitor is already doing it. What closes them: a dated map of what they will not have in six months — not a feature list.</p><p><strong>Status.</strong> Being seen as the one who brought it. What closes them: material they can present upward without rewriting it.</p><p><strong>Relief.</strong> The operator who is tired of the fire drill. What closes them: the exact time in days the noise stops, and who does the migration.</p><h2>The discipline</h2><p>Ask which one it is, out loud, in the first meeting. 'Who is going to question you on this afterwards?' Nine times out of ten the answer reorganises the whole proposal, and it costs you thirty seconds.</p>"
+    }
+  ]
+}
